@@ -4,6 +4,9 @@ string[] text = new string[array.Length];
 int n = 3;
 
 
+Find(array, text);
+PrintArray(text);
+
 
 void Find(string[] array, string[] text)
 {
@@ -31,4 +34,9 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
+
+// void Fill(string[] array)
+// {
+//     string[] text = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);   -думал как сделать с ручным заполнение, там затупил
+// }
 
